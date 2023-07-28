@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<title>My Travel Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif;
+}
+.row-r1 img {margin-bottom: 12px;
+}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;
+}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+.foot{
+   
+    padding: 10px 490px 10px 300px;
+    text-align: center;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.sm6 {
+  background: #3B5998;
+  color: white;
+}
+
+.sm4 {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.sm5 {
+  background: #007bb5;
+  color: white;
+}
+
+.sm11 {
+  background: #bb0000;
+  color: white;
+}
+
+.sm1 {
+  background: #125688;
+  color: white;
+}
+
+.sm3 {
+  background: #cb2027;
+  color: white;
+}
+
+.sm2 {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.sm7 {
+  background: #00aff0;
+  color: white;
+}
+
+.sm8 {
+  background: #a4c639;
+  color: white;
+}
+
+.sm9 {
+  background: #45bbff;
+  color: white;
+}
+.sm10 {
+  background: #430297;
+  color: white;
+}
+
+#map iframe{
+    width: 1180px;
+    padding: 0 92px;
+}
+
+
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {
+  #main {margin-left: 0;
+  }
+}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="img/p13.JPG" style="width:100%">
+  <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa-solid fa-house-laptop fa-fade w3-xxlarge" style="color: #3c2825;"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa-solid fa-eye fa-spin-pulse w3-xxlarge e1"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa-solid fa-eye fa-spin-pulse w3-xxlarge "  style="color: #28336c;"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge" style="color: #0fdf9b;"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+    <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+      <a href="index.html" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+      <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+      <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+      <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+    </div>
+  </div>
+
+  <!-- Page Content -->
+<div class="w3-padding-large" id="main">
+    <!-- Header/Home -->
+    <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+      <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Virender kumar.</h1>
+      <p>Teacher as BCI and Web Designer.</p>
+      <img src="img/p7.jpg" alt="boy" class="w3-image" width="992" height="1108">
+    </header>
+
+
+ <section id="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27748.43430871851!2d73.90946192590332!3d29.616640493648458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39164798293e0a99%3A0x24d7c40447d4bd5e!2sKhotanwali%20Bus%20stand!5e0!3m2!1sen!2sin!4v1690458449980!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ </section>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Photos</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="row-r1" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="map/p11.jpg" style="width:100%">
+        <img src="map/p12.jpg" style="width:100%">
+        <img src="map/p13.jpg" style="width:100%">
+        <img src="map/p14.jpg" style="width:100%">
+        <img src="map/p15.jpg" style="width:100%">
+        <img src="map/16.jpg" style="width:100%">
+        <img src="map/17.jpg" style="width:100%">
+        <img src="map/18.jpg" style="width:100%">
+        <img src="map/19.jpg" style="width:100%">
+        <img src="map/20.jpg" style="width:100%">
+        <img src="map/21.jpg" style="width:100%">
+        <img src="map/22.jpg" style="width:100%">
+        <img src="map/29.jpg" style="width:100%">
+        <img src="map/30.jpg" style="width:100%">
+        <img src="map/31.jpg" style="width:100%">
+        <img src="map/32.jpg" style="width:100%">
+        <img src="map/33.jpg" style="width:100%">
+        <img src="map/34.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="map/p1.jpg" style="width:100%">
+        <img src="map/p2.jpg" style="width:100%">
+        <img src="map/p3.jpg" style="width:100%">
+        <img src="map/p4.jpg" style="width:100%">
+        <img src="map/p5.jpg" style="width:100%">
+        <img src="map/p6.jpg" style="width:100%">
+        <img src="map/p7.jpg" style="width:100%">
+        <img src="map/p8.jpg" style="width:100%">
+        <img src="map/p9.jpg" style="width:100%">
+        <img src="map/p10.jpg" style="width:100%">
+        <img src="map/23.jpg" style="width:100%">
+        <img src="map/24.jpg" style="width:100%">
+        <img src="map/25.jpg" style="width:100%">
+        <img src="map/26.jpg" style="width:100%">
+        <img src="map/27.jpg" style="width:100%">
+        <img src="map/28.jpg" style="width:100%">
+        <img src="map/35.jpg" style="width:100%">
+      </div>
+   
+    </div>
+  
+  </div>
+  
+ 
+  
+  
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge foot">
+    <a target = "blank" href='https://www.facebook.com/Virenderkumarsain/'><i class="fa-brands fa-square-facebook fa-flip w3-hover-opacity sm6"></i></a>
+    <a target = "blank" href='https://www.instagram.com/virender_978/'><i class="fa-brands fa-square-instagram fa-flip  w3-hover-opacity sm1"></i></a>
+    <a href="http://www.snapchat.com/" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-square-snapchat fa-flip  w3-hover-opacity sm2" ></i></a>
+    <a href="https://www.pinterest.com/login/" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-square-pinterest fa-flip  w3-hover-opacity sm3"></i></a>
+    <a target = "blank" href='https://twitter.com/virender199122' ><i class="fa-brands fa-square-twitter fa-flip  w3-hover-opacity sm4"></i></i></a>
+    <a href="http:www.linkedin.com/in/virender-kumar-21b072bb/" target="_blank" > <i class="fa-brands fa-linkedin fa-flip  w3-hover-opacity sm5"></i></a>
+    <a href="http://secure.skype.com/portal/overview" target="_blank" ><i class="fa-brands fa-square-skype  fa-flip  w3-hover-opacity sm7"></i></a>
+    <a href="http://www.android.com" target="_blank">  <i class="fa-brands fa-android fa-flip  w3-hover-opacity sm8"></i></a>
+    <a href="http://vimeo.com/" target="_blank"> <i class="fa-brands fa-square-vimeo fa-flip  w3-hover-opacity sm9"></i></a>
+    <a target = "blank" href = 'https://login.yahoo.com/myaccount/personalinfo/?src=homepage&.done=https%3A%2F%2Fwww.yahoo.com%2F&pspid=2023538075&activity=ybar-acctinfo&.scrumb=MQnCZU5MvHF'> <i class="fa-brands fa-yahoo fa-flip  w3-hover-opacity sm10"></i></a>
+    <a target = "blank" href = 'https://www.youtube.com//channel/UCoojQlmiqTTvWDHLLi-qU4w'><i class="fa-brands fa-square-youtube fa-flip w3-hover-opacity sm11"></i></a>
+    <a href="http://www.google.com"><i class="fa-brands fa-google fa-flip fa-flip w3-hover-opacity " style="color: #e2035c;"></i></a>
+    <p class="w3-medium">Powered by <a href="#" target="_blank" class="w3-hover-text-green">Virender.design</a></p>
+  
+  </footer>
+
+
+</div>
+
+</body>
+</html>
